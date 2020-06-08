@@ -1,0 +1,36 @@
+.wrapper {
+    background-color: black;
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header .header__logo {
+    color: yellow;
+}
+
+.header .header__menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .header__menu li a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.header .header__menu li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
