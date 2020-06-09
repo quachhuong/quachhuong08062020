@@ -11,7 +11,7 @@
     justify-content: space-between;
 }
 
-.content__child {
+.content .content__child {
     width: calc(100%/3 - 15px);
 }
 
@@ -33,6 +33,7 @@
     border-radius: 50%;
     width: 130px;
     height: 130px;
+    margin: 0 auto;
 }
 
 .icon {
